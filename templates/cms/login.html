@@ -1,0 +1,47 @@
+{% from 'commons/macro.html' import static %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+
+    <title>登录-CMS管理系统</title>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ static('cms/css/signin.css') }}" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container">
+
+    <form class="form-signin " method="post">
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+        <h2 class="form-signin-heading" style="text-align: center;">登录CMS管理系统</h2>
+        <div class="form-group">
+            <label for="inputEmail" class="sr-only">邮箱</label>
+            <input type="text" id="inputEmail" class="form-control" name="email" placeholder="邮箱" required autofocus
+                   {% if email %} value="{{ email }}" {% endif %}>
+        </div>
+        <div class="form-group">
+            <label for="inputPassword" class="sr-only">密码</label>
+            <input type="password" id="inputPassword" class="form-control" name="password" placeholder="密码" required>
+        </div>
+        <div class="form-group">
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" value="1" name="remember"> 记住我
+                </label>
+            </div>
+
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">登录</button>
+    </form>
+    {% if message %}
+        <p style="text-align: center;" class="text-danger">{{ message }}</p>
+    {% endif %}
+</div>
+
+</body>
+</html>
