@@ -1,3 +1,5 @@
+# coding=utf-8
+
 from wtforms import Form, StringField, IntegerField
 from wtforms.validators import Length, EqualTo, Regexp, ValidationError, InputRequired
 

@@ -1,4 +1,5 @@
-import os
+# coding=utf-8
+
 # 开启DEBUG模式
 DEBUG = True
 

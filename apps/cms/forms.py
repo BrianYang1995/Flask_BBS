@@ -1,3 +1,5 @@
+# coding=utf-8
+
 from wtforms import Form, StringField, IntegerField, ValidationError
 from wtforms.validators import Email, InputRequired, Length, EqualTo
 from flask import g

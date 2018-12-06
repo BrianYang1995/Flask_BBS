@@ -1,3 +1,5 @@
+# coding=utf-8
+
 from .views import bp, render_template
 import config
 from flask import session, g

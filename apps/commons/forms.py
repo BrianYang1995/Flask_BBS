@@ -1,3 +1,5 @@
+# coding=utf-8
+
 from wtforms import Form, StringField
 from wtforms.validators import Length, Regexp, InputRequired, ValidationError
 import hashlib

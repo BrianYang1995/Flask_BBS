@@ -1,3 +1,5 @@
+# coding=utf-8
+
 from flask import Flask
 from flask_wtf import CSRFProtect
 from apps.cms import bp as cms_bp

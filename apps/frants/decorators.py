@@ -1,3 +1,5 @@
+# coding=utf-8
+
 from flask import redirect, url_for, session
 import config
 from functools import wraps

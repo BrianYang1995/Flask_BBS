@@ -1,3 +1,5 @@
+# coding=utf-8
+
 from flask import Blueprint, views, render_template, make_response, request, url_for, session, redirect, g, abort
 from flask_paginate import Pagination, get_page_parameter
 
