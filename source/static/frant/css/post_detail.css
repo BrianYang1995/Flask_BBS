@@ -1,0 +1,95 @@
+.post-detail {
+    padding: 20px;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px #e2e2e2 solid;
+}
+.post-detail h1 {
+    padding-bottom: 16px;
+}
+.post-info {
+    font-size: 12px;
+    padding-bottom: 20px;
+    border-bottom: 1px #e2e2e2 solid;
+    margin-bottom: 16px;
+}
+.post-info span {
+    margin-right: 14px;
+}
+.post-content {
+    padding-bottom: 20px;
+    border-bottom: 1px #e2e2e2 solid;
+}
+.post-content img {
+    max-width: 90%;
+}
+.right-content {
+    border: 1px #e2e2e2 solid;
+    padding: 20px;
+    border-radius: 6px;
+}
+.author li img {
+    max-width: 80%;
+}
+.author li {
+    text-align: center;
+}
+.author li:first-child div {
+    width: 200px;
+    height: 200px;
+    border: 1px #e2e2e2 solid;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.author li:nth-child(2) {
+    font-size: 14px;
+}
+.author li:first-child {
+    margin-bottom: 10px;
+}
+
+.comments-group {
+    margin-top: 20px;
+    overflow: hidden;
+}
+.comments-group h2 {
+    padding-bottom: 16px;
+}
+
+.comments-group li {
+    margin: 10px 0;
+    overflow: hidden;
+    border-bottom: 1px #e2e2e2 solid;
+}
+.comments-group li .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    margin-right: 20px;
+}
+.comments-group li .avatar img {
+    width: 100px;
+    height: 100px;
+}
+.comments-group li .content-box {
+    float: left;
+}
+.comments-group .content-box {
+    padding: 10px 0;
+}
+.comments-group .comment-info {
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+.comments-group .comment-info span {
+    padding-right: 20px;
+}
+.comments-group .add-comment {
+    margin-top: 20px;
+}
+.comments-group .add-comment button {
+    margin: 10px 0;
+}

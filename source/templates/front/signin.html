@@ -1,0 +1,38 @@
+{% extends 'front/signbase.html' %}
+{% from 'commons/macro.html' import static %}
+
+{% block title -%}
+    欢迎登录
+{%- endblock %}
+
+{% block head %}
+    <script src="{{ static('frant/js/signin.js') }}"></script>
+{% endblock %}
+
+{% block page_title -%}
+    欢迎登录
+{%- endblock %}
+
+{% block body %}
+    <div class="form-container">
+
+        <div class="form-group">
+            <input type="text" class="form-control" name="telephone" placeholder="手机号">
+        </div>
+       <div class="form-group">
+            <input type="password" class="form-control" name="password" placeholder="请输入密码">
+        </div>
+        <div class="form-group" style="text-align: left;">
+                <input type="checkbox" class='checkbox-inline' name="remember" id="remember">
+            <label for="remember" class="control-label" style="font-weight: 500;">记住我</label>
+        </div>
+        <button type="button" id="submit" class="btn btn-primary btn-block">立 即 注 册</button>
+
+        <ul class="list-inline sign" style="">
+            <li class="float-left"><a href="{{ url_for('frants.signup') }}" >没有帐号？立即注册</a></li>
+            <li class="float-right"><a  href="{{ url_for('frants.signin') }}">忘记密码</a></li>
+        </ul>
+    </div>
+
+
+{% endblock %}
