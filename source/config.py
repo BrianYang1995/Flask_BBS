@@ -9,9 +9,9 @@ SECRET_KEY = b'\x98|\xad\x85\xb8\xc2\xad{\x9f\xa3>g\xb4;\xfc(\x0f1\xf3rT\xcb\xe1
 # Mysql数据库
 HOST = '127.0.0.1'
 PORT = '3306'
-USERNAME = 'root'
-PASSWORD = 'Yang-9110'
-DB_NAME = 'BBS'
+USERNAME = '***'
+PASSWORD = '***'
+DB_NAME = '***'
 
 DB_URI = 'mysql+pymysql://{user}:{pwd}@{host}:{port}/{database}?charset=utf8'.format(
     user=USERNAME, pwd=PASSWORD, host=HOST, port=PORT, database=DB_NAME
@@ -41,9 +41,9 @@ SIGN_NAME = 'xpythonx论坛'
 TEMPLATE_CODE = 'SMS_151996861'
 
 # 七牛
-QINIU_ACCESS_KEY = 'JNXWnfjPbIibGFEIVYKddUgvI0cLBEVwWFxRxZPk'
-QINIU_SECRET_KEY = '_XvtKMz-cQqdXDGPoMC68sFbwAxTvv6DYgxI_w_4'
-QINIU_BUCKET = 'xpythonx-bbs'
+QINIU_ACCESS_KEY = '***'
+QINIU_SECRET_KEY = '_XvtKMz-****'
+QINIU_BUCKET = '***-bbs'
 
 # Ueditor
 UEDITOR_UPLOAD_TO_QINIU = True
