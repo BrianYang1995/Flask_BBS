@@ -4,7 +4,7 @@
 DEBUG = True
 
 # 工程密钥
-SECRET_KEY = b'\x98|\xad\x85\xb8\xc2\xad{\x9f\xa3>g\xb4;\xfc(\x0f1\xf3rT\xcb\xe13'
+SECRET_KEY = b'****'
 
 # Mysql数据库
 HOST = '127.0.0.1'
@@ -25,7 +25,7 @@ CMS_USER_SESSION = ''
 FRONT_USER_SESSION = ''
 
 # Send E-mail
-MAIL_SERVER = 'smtp.163.com'
+MAIL_SERVER = '***'
 MAIL_PORT = 25
 MAIL_USERNAME = ''
 MAIL_PASSWORD = ''
@@ -35,7 +35,7 @@ MAIL_DEFAULT_SENDER = ''
 CAPTCHA_NUM = 6
 
 # 阿里大于短信
-ACCESS_KEY_ID = "LTAI6orYrhcZj2EW"
+ACCESS_KEY_ID = "***"
 ACCESS_KEY_SECRET = ""
 SIGN_NAME = ''
 TEMPLATE_CODE = ''
